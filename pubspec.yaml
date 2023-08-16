@@ -1,0 +1,30 @@
+name: flutter_samples
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.6 <4.0.0'
+
+dependencies:
+  cached_network_image: ^3.2.3
+  cupertino_icons: ^1.0.5
+  flutter:
+    sdk: flutter
+  fluttericon: ^2.0.0
+  google_fonts: ^5.1.0
+  ui_common:
+    path: packages/ui_common/
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  very_good_analysis: ^5.0.0+1
+
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/img/samples/
